@@ -1,0 +1,5 @@
+@import './dashboard';
+.customer_div{
+    @include main_div();
+}
+    

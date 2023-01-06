@@ -1,0 +1,14 @@
+@import './dashboard';
+.info_div{
+    @include main_div();
+}
+.user_avatar{
+    // width: 400px;
+    width: 40px !important;
+    height: 40px !important;
+    &:hover {
+        width: 100px !important;
+        height: 100px !important;
+
+    }
+}

@@ -1,0 +1,46 @@
+.right_column{
+    padding: 100px;
+    padding-bottom: 20%;
+    margin-bottom: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.user_name{
+    margin-bottom: 40px !important;
+
+}
+.node_image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+.left_column{
+    height: 100vh;
+    padding-top: 4%;
+    padding-right: 0px;
+    padding-left: 5%;
+}
+
+/* *********SIGN UP********************* */
+.user_name_signup{
+    margin-bottom: 30px !important;
+}
+.right_column_signup{
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left_column_signup{
+    height: 100vh;
+    padding-top: 10%;
+    padding-right: 0px;
+    padding-left: 5%;
+}

@@ -1,0 +1,96 @@
+$themeColor: #422afb;
+$dashboardBackgrounColor: #f0f0fa;
+$themeSecondayColor: #ca2129;
+
+@mixin main_div {
+  padding-top: 80px;
+  padding-left: 260px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  background-color: $dashboardBackgrounColor;
+}
+.dashboard_div {
+  @include main_div();
+}
+
+// *************User Chart********************
+.userchart {
+  padding: 15px;
+  background-color: #ffff;
+  box-shadow: 2px 2px 19px 5px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 2px 2px 19px 5px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 2px 2px 19px 5px rgba(0, 0, 0, 0.29);
+  border-radius: 4px;
+}
+.percentage_chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text_icon {
+  background-color: #09ac32;
+  border-radius: 15px;
+  width: 6vw;
+}
+
+// ******************Order Table **************************
+.order_table {
+  height: 350px;
+  width: 100%;
+}
+._order_head {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+.dashboard_table {
+  margin-top: 20px;
+}
+// ***************Recent Order *****************
+.food_detail {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.order_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.food_image {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  border: 1px solid rgb(187, 181, 181);
+  border-radius: 3px;
+  padding: 5px;
+  &:hover {
+    border: 1px solid black;
+  }
+}
+// ****************** Monhthly Revenue *************************
+.linear_bar {
+  background-color: #ffff;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  // height: 65.5vh;
+}
+.progress_bar {
+  padding: 25px;
+}
+.progress {
+  margin-bottom: 15.5px;
+}
+
+// **************Recently Placed Order*******************
+.accept_button {
+  color: black;
+  background-color: green !important;
+  height: 27px;
+}
+.reject_button {
+  color: #ffff;
+  background-color: #ca2129 !important;
+}

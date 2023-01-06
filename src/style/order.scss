@@ -1,0 +1,48 @@
+@import './dashboard';
+.order_div{
+    @include main_div();
+
+}
+.order{
+    background-color: #ffff;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+.circle{
+    // background-color: aqua;
+    margin-right: 100px;
+}
+.OrderList{
+    padding: 25px;
+}
+.pending_order{
+ background-color: #fbbe36 ;
+ border-radius: 4px;
+ padding: 4px;
+//  width: 80px !important;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.canceled_order{
+background-color: black ;
+ border-radius: 4px;
+ color: #ffff;
+ padding: 4px;
+ 
+}
+.delivered_order{
+    background-color: rgb(19, 143, 214) ;
+    
+    border-radius: 4px;
+    color: #ffff;
+    padding: 4px;
+    padding-left: 6px;
+padding-right: 6px;  
+}
+.slider_image{
+    // background-color: 4px solid black !important;
+    // border: 3px solid #fbbe36;
+    // border-radius:  5px  ;
+    margin-bottom: 10px;
+}
